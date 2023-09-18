@@ -1,0 +1,14 @@
+.search {
+    display: flex;
+    max-width: 220px;
+    margin: auto;
+}
+
+.searchField {
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 0px 8px whitesmoke;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+}

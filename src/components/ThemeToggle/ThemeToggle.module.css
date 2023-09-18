@@ -1,0 +1,24 @@
+.themeToggle {
+    text-align: center;
+}
+
+.toggleIcon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.toggleIcon:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+:root {
+    background-color: #575967;
+    color: #f4f4f4;
+}
+
+[data-theme='light'] {
+    background-color: #F2B8C6;
+    color: #CC3366;
+}

@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    padding-left: 20px;
+    padding-top: 25px;
+    font-size: 3.5rem;
+    color: #f3da35;
+}
+
+.green {
+    color: #20b820;
+}
+
+.firstHeading:hover {
+    transform: scale(1.04);
+    /* padding-bottom: 40px; */
+    margin-bottom: 40px;
+}
+
+.firstHeading {
+    position: relative;
+}
+
+.firstHeading:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 180px;
+    font-size: 22px;
+    color:#fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 125px;
+    transition: opacity 1s ease-in-out;
+    font-weight: 200;
+    position: absolute;
+    text-shadow: 1px 1px 2px black;
+    z-index: 1;
+    left: 0;
+    top: 100%;
+}
+
+.firstHeading:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
